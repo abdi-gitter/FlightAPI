@@ -63,7 +63,7 @@ const UserSchema = new mongoose.Schema({
     collection: 'users'
 })
 
-// Schema. Done.
+// Schema. This one is Done.
 
 // Now create Model:
 module.exports = mongoose.model('User', UserSchema)
